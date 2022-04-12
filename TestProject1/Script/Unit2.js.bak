@@ -1,0 +1,21 @@
+﻿function Test1()
+{
+  //Clicks the 4 item of the 'ToolBar' toolbar.
+  Aliases.Orders.MainForm.ToolBar.ClickItem(4, false);
+  //Selects the 'FamilyAlbum' item of the 'ProductNames' combo box.
+  Aliases.Orders.OrderForm.Group.ProductNames.ClickItem("FamilyAlbum");
+  //Checks whether the 'wText' property of the Aliases.Orders.OrderForm.Group.ProductNames object equals 'FamilyAlbum'.
+  aqObject.CheckProperty(Aliases.Orders.OrderForm.Group.ProductNames, "wText", cmpEqual, "FamilyAlbum");
+  //Clicks the 'Customer' object.
+  Aliases.Orders.OrderForm.Group.Customer.Click(23, 12);
+  //Enters the text 'Levani' in the 'Customer' text editor.
+  Aliases.Orders.OrderForm.Group.Customer.SetText("Levani");
+  //Checks whether the 'wText' property of the Aliases.Orders.OrderForm.Group.Customer object equals 'Levani'.
+  aqObject.CheckProperty(Aliases.Orders.OrderForm.Group.Customer, "wText", cmpEqual, "Levani");
+  //Checks whether the 'wChecked' property of the Aliases.Orders.OrderForm.Group.Visa object equals True.
+  aqObject.CheckProperty(Aliases.Orders.OrderForm.Group.Visa, "wChecked", cmpEqual, true);
+  //Checks whether the 'wChecked' property of the Aliases.Orders.OrderForm.Group.Visa object equals False.
+  aqObject.CheckProperty(Aliases.Orders.OrderForm.Group.Visa, "wChecked", cmpEqual, false);
+  //Clicks the 'ButtonOK' button.
+  Aliases.Orders.OrderForm.ButtonOK.ClickButton();
+}

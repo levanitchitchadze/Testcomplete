@@ -1,18 +1,63 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
 
-# Other files and folders
-.settings/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+ - Create branch testcomplete-basics and make following changes in this branch 
+- Install Testcomplete trial 
+- Select Desktop Samples from the Start Page 
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+
+ ### Step 3
+ Create new Unit in TestComplete
+
+
+ - Create new Record Script for Orders app (C:\Users\Public\Documents\TestComplete 14 Samples\Desktop\Orders\C#\bin\Release)
+ - Add new order and fill all fields 
+- Add Checkpoint to check selected value of Product dropdown and element count
+ - Add Checkpoint to check selected Card radiobutton state (checked/unchecked)
+- Add Checkpoint to check Customer Name value 
+
+
+ - Create new Unit for Orders app 
+- Add new order with all parameters 
+- Update default Alias in NameMapping file at least for one element 
+- Update default parent in NameMapping file at least for one element
+- Add Checkpoint to check added order all properties and row count 
+- Delete added order 
+- Add Checkpoint to check row count 
+
+
+
+ ### Step 4 
+ Install Github plugin from File ->Source Control
+Commit the final version and make a pull request on main.
+ - Add mentors as reviewers
+
+.gitignore.txt
+Text
+
+TC_task.txt
+Text
+Class comments
+Your work
+Assigned
+Private comments
+# Use glob syntax
+syntax: glob
+
+# Ignore logs
+Log/
+Visualizer/
+# Log files
+*.tcLogs
+
+# Ignore local settings files
+*.tcLS
+
+#File holding tester-specific settings for the project suite.
+*.tcCfgExtender
+
+
+# Ignore backup files
+*.bak
+# Ignore Keyword testing project files
+*KTD.tcKDT
+*.NMimg

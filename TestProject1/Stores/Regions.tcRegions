@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="OrderForm" key="{73A52039-8DEE-4F3A-9869-BB104AE997A0}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="OrderForm" ID="{73A52039-8DEE-4F3A-9869-BB104AE997A0}" FileName="Regions\OrderForm.png" Update="False" />
+		</child>
+		<child name="ProductNames" key="{36331B00-D4C1-4905-B96D-58A441071EF3}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="ProductNames" ID="{36331B00-D4C1-4905-B96D-58A441071EF3}" FileName="Regions\ProductNames.png" Update="False" />
+		</child>
+		<child name="Visa" key="{D089FEF0-3A4F-4957-A3BF-053A0067CDE3}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Visa" ID="{D089FEF0-3A4F-4957-A3BF-053A0067CDE3}" FileName="Regions\Visa.png" Update="False" />
+		</child>
+		<child name="AE" key="{5F1A7D6C-4336-46F7-815A-975E7E12FEA5}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="AE" ID="{5F1A7D6C-4336-46F7-815A-975E7E12FEA5}" FileName="Regions\AE.png" Update="False" />
+		</child>
+	</children>
+</Root>

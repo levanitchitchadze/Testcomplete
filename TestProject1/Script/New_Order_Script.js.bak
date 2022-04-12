@@ -1,0 +1,49 @@
+﻿function New_Order()
+{
+  //Clicks the 4 item of the 'ToolBar' toolbar.
+  Aliases.Orders.MainForm.ToolBar.ClickItem(4, false);
+  //Selects the 'ScreenSaver' item of the 'ProductNames' combo box.
+  Aliases.Orders.OrderForm.Group.ProductNames.ClickItem("ScreenSaver");
+  //Clicks the 'Price' object.
+  Aliases.Orders.OrderForm.Group.Price.Click(14, 9);
+  //Enters the text '$1020' in the 'Price' text editor.
+  Aliases.Orders.OrderForm.Group.Price.SetText("$1020");
+  //Clicks the 'Discount' object.
+  Aliases.Orders.OrderForm.Group.Discount.Click(12, 11);
+  //Enters the text '7%' in the 'Discount' text editor.
+  Aliases.Orders.OrderForm.Group.Discount.SetText("7%");
+  //Sets the date '4/12/2022' in the 'Date' date/time picker.
+  Aliases.Orders.OrderForm.Group.Date.wDate = "4/12/2022";
+  //Clicks the 'Customer' object.
+  Aliases.Orders.OrderForm.Group.Customer.Click(106, 7);
+  //Enters the text 'levan' in the 'Customer' text editor.
+  Aliases.Orders.OrderForm.Group.Customer.SetText("levan");
+  //Clicks the 'Street' object.
+  Aliases.Orders.OrderForm.Group.Street.Click(64, 8);
+  //Clicks the 'Street' object.
+  Aliases.Orders.OrderForm.Group.Street.Click(64, 8);
+  //Enters the text 'istar' in the 'Street' text editor.
+  Aliases.Orders.OrderForm.Group.Street.SetText("istar");
+  //Clicks the 'City' object.
+  Aliases.Orders.OrderForm.Group.City.Click(88, 6);
+  //Enters the text 'tbilisi' in the 'City' text editor.
+  Aliases.Orders.OrderForm.Group.City.SetText("tbilisi");
+  //Double-clicks the 'State' object.
+  Aliases.Orders.OrderForm.Group.State.DblClick(62, 13);
+  //Enters the text 'georgia' in the 'State' text editor.
+  Aliases.Orders.OrderForm.Group.State.SetText("georgia");
+  //Clicks the 'Zip' object.
+  Aliases.Orders.OrderForm.Group.Zip.Click(52, 15);
+  //Enters the text '1002002' in the 'Zip' text editor.
+  Aliases.Orders.OrderForm.Group.Zip.SetText("1002002");
+  //Clicks the 'MasterCard' button.
+  Aliases.Orders.OrderForm.Group.MasterCard.ClickButton();
+  //Clicks the 'CardNo' object.
+  Aliases.Orders.OrderForm.Group.CardNo.Click(55, 11);
+  //Enters the text '98142718259817581725915718725981' in the 'CardNo' text editor.
+  Aliases.Orders.OrderForm.Group.CardNo.SetText("98142718259817581725915718725981");
+  //Sets the date '4/12/2022' in the 'ExpDate' date/time picker.
+  Aliases.Orders.OrderForm.Group.ExpDate.wDate = "4/12/2022";
+  //Clicks the 'ButtonOK' button.
+  Aliases.Orders.OrderForm.ButtonOK.ClickButton();
+}
